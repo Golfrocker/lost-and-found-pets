@@ -52,7 +52,6 @@
         aria-label="Slide 3"
         data-carousel-slide-to="2"
       ></button>
-
     </div>
     <!-- Slider controls -->
     <button

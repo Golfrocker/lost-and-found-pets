@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   },
   modules: [
     'vue3-carousel-nuxt',
-    
+    '@ant-design-vue/nuxt',
+    'dayjs-nuxt'
   ]
 })

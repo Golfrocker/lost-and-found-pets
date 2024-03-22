@@ -1,15 +1,10 @@
-
 <template>
-    <div><Header/></div>
-    <div>
-        <Shopindex/>
-    </div>
+  <div><Header /></div>
+  <div>
+    <Shopindex />
+  </div>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style scoped>
-
-</style>
+<style></style>

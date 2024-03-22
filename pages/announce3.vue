@@ -1,8 +1,6 @@
 <template>
-  <div><Header/></div>
+  <div><Header /></div>
   <div>
-    <div class="h-48 bg-cyan-200">hi</div>
-
     <div class="space-x-4 text-center pt-10">
       <button class="bg-amber-300 px-5 py-2 rounded-md">loremasd</button>
       <button class="bg-amber-300 px-5 py-2 rounded-md">loremasd</button>

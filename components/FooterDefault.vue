@@ -3,15 +3,15 @@
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
-          <a href="https://flowbite.com/" class="flex items-center">
+          <a href="/" class="flex items-center">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              class="h-8 me-3"
-              alt="FlowBite Logo"
+              src="https://cdn.dribbble.com/users/43762/screenshots/2610432/animals.gif"
+              class="rounded-full w-20 h-20 shadow-lg shadow-black"
+              alt="Lostandfoundpets Logo"
             />
             <span
-              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-              >Flowbite</span
+              class="self-center text-2xl font-semibold whitespace-nowrap translate-x-5 dark:text-white"
+              >LostAndFoundPets</span
             >
           </a>
         </div>

@@ -11,7 +11,7 @@
           <img
             src="https://cdn.dribbble.com/users/43762/screenshots/2610432/animals.gif"
             class="rounded-full w-20 h-20 shadow-lg shadow-black"
-            alt="Flowbite Logo"
+            alt="Lostandfoundpets Logo"
           />
           <span
             class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
@@ -21,6 +21,7 @@
         <div
           class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse"
         >
+          <Accountuser />
           <NuxtLink
             to="login"
             class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
@@ -29,7 +30,7 @@
           <NuxtLink
             to="signup"
             class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-            >Sign up</NuxtLink
+            >สมัครสมาชิก</NuxtLink
           >
           <button
             data-collapse-toggle="mega-menu"
@@ -105,21 +106,21 @@
                   >
                     <li>
                       <NuxtLink
-                        to="/announcement"
+                        to="/announce"
                         class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500"
                         >Lost Pets</NuxtLink
                       >
                     </li>
                     <li>
                       <NuxtLink
-                        to="/announcement2"
+                        to="/announce2"
                         class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500"
                         >Find Owner</NuxtLink
                       >
                     </li>
                     <li>
                       <NuxtLink
-                        to="/announcement3"
+                        to="/announce3"
                         class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500"
                         >Find Home</NuxtLink
                       >
