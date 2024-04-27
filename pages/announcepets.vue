@@ -119,7 +119,7 @@
         >วันที่หาย</label
       >
       <a-date-picker
-        v-model:value="value1"
+        v-model="value1"
         class="w-full"
         :disabled-date="disabledDate"
       />

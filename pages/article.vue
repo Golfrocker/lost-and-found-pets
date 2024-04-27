@@ -1,7 +1,7 @@
 <template>
   <div><Header /></div>
   <div>
-    <h1>Friends Lostandfoundpets</h1>
+    <Articlecard />
   </div>
 </template>
 

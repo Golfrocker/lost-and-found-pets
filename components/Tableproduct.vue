@@ -16,59 +16,26 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <th
-              scope="row"
+          <!-- Mockup data -->
+          <tr
+            v-for="(product, index) in mockupData"
+            :key="index"
+            class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+          >
+            <td
               class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
             >
-              Apple MacBook Pro 17"
-            </th>
+              {{ product.name }}
+            </td>
             <td class="px-6 py-4">
               <img
-                class="rounded-full w-20 h-20"
-                src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/iphone-card-40-iphone15hero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369781"
+                :src="product.image"
                 alt="image description"
+                class="rounded-full w-20 h-20"
               />
             </td>
-
-            <td class="px-6 py-4">Laptop</td>
-            <td class="px-6 py-4">$2999</td>
-            <td class="px-6 py-4">
-              <a
-                href="#"
-                class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-                >Edit</a
-              >
-            </td>
-          </tr>
-          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-            <th
-              scope="row"
-              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-            >
-              Microsoft Surface Pro
-            </th>
-            <td class="px-6 py-4">White</td>
-            <td class="px-6 py-4">Laptop PC</td>
-            <td class="px-6 py-4">$1999</td>
-            <td class="px-6 py-4">
-              <a
-                href="#"
-                class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-                >Edit</a
-              >
-            </td>
-          </tr>
-          <tr class="bg-white dark:bg-gray-800">
-            <th
-              scope="row"
-              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-            >
-              Magic Mouse 2
-            </th>
-            <td class="px-6 py-4">Black</td>
-            <td class="px-6 py-4">Accessories</td>
-            <td class="px-6 py-4">$99</td>
+            <td class="px-6 py-4">{{ product.category }}</td>
+            <td class="px-6 py-4">{{ product.price }}</td>
             <td class="px-6 py-4">
               <a
                 href="#"
@@ -84,7 +51,75 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      // Mockup data for dogs and cats
+      mockupData: [
+        {
+          name: "Golden Retriever",
+          image: "https://via.placeholder.com/150",
+          category: "Dog",
+          price: "$500",
+        },
+        {
+          name: "Siamese",
+          image: "https://via.placeholder.com/150",
+          category: "Cat",
+          price: "$300",
+        },
+        {
+          name: "Labrador Retriever",
+          image: "https://via.placeholder.com/150",
+          category: "Dog",
+          price: "$450",
+        },
+        {
+          name: "Maine Coon",
+          image: "https://via.placeholder.com/150",
+          category: "Cat",
+          price: "$350",
+        },
+        {
+          name: "German Shepherd",
+          image: "https://via.placeholder.com/150",
+          category: "Dog",
+          price: "$550",
+        },
+        {
+          name: "Persian",
+          image: "https://via.placeholder.com/150",
+          category: "Cat",
+          price: "$400",
+        },
+        {
+          name: "Poodle",
+          image: "https://via.placeholder.com/150",
+          category: "Dog",
+          price: "$600",
+        },
+        {
+          name: "Scottish Fold",
+          image: "https://via.placeholder.com/150",
+          category: "Cat",
+          price: "$320",
+        },
+        {
+          name: "Beagle",
+          image: "https://via.placeholder.com/150",
+          category: "Dog",
+          price: "$480",
+        },
+        {
+          name: "Bengal",
+          image: "https://via.placeholder.com/150",
+          category: "Cat",
+          price: "$380",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style scoped></style>

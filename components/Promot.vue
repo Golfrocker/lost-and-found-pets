@@ -1,37 +1,43 @@
 <template>
-  <div class="grid grid-cols-2 gap-10 px-36 py-56">
+  <div class="grid grid-cols-2 gap-10 px-36 py-36 bg-yellow-100">
     <div>
       <div class="text-3xl font-semibold pb-5">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis,
-        sed?
+        เราจะช่วยประกาศตามหาได้ยังไง?
       </div>
-      <div class="font-normal">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, fugiat
-        eligendi! Ab, assumenda nesciunt quod praesentium soluta quisquam nulla,
-        repudiandae repellendus ipsam consequuntur explicabo aspernatur?
+      <div class=" font-medium">
+        การกระจายอยู่ทั่วทุกพื้นที่ในประเทศไทย เมื่อท่านกดแจ้งสัตว์เลี้ยงหาย
+        ระบบจะทำการแจ้งไปยังไลน์ ให้ช่วยกันสอดส่องตามหา หากใครพบ หรือมีเบาะแส
+        สามารถติดต่อกลับหาเจ้าของได้ทันที แบบนี้มีคนรู้ข่าวเร็ว ช่วยกันหาได้ไว
+        โอกาสหาเจอเยอะขึ้น
       </div>
       <div class="grid grid-cols-2 gap-10 pt-10">
         <div>
-          <img src="/img/to-do-list.png" class="h-20" />
-          <div class="font-medium">Lorem, ipsum.</div>
-          <div class="text-xs">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Blanditiis!
+          <img
+            src="data:image/png;base64,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"
+            class="h-20 rounded-full shadow-lg shadow-black"
+          />
+          <div class="font-semibold py-5">ช่วยกันดู</div>
+          <div class=" text-base">
+            คนเห็นประกาศช่วยกันดู เป็นหูเป็นตา ยิ่งหลายคน
+            ยิ่งมีโอกาสเจอน้องมากขึ้น
           </div>
         </div>
         <div>
-          <img src="/img/to-do-list.png" class="h-20" />
-          <div class="font-medium">Lorem, ipsum.</div>
-          <div class="text-xs">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Blanditiis!
+          <img
+            src="https://png.pngtree.com/png-vector/20201113/ourlarge/pngtree-notification-bell-vector-icon-png-image_2429107.jpg"
+            class="h-20 rounded-full shadow-lg shadow-black"
+          />
+          <div class="font-semibold py-5">ส่งเบาะแสหากัน</div>
+          <div class="text-base">
+            หาเห็นสัตว์เลี้ยงลักษณะใกล้เคียง สามารถส่งข้อมูลหากันได้
+            ติดต่อได้รวดเร็ว ทันเวลา
           </div>
         </div>
       </div>
     </div>
     <div>
       <img
-        src="https://www.thesprucepets.com/thmb/UX4NHGthaE9DepYeTzaUh06yxFE=/1500x0/filters:no_upscale():strip_icc()/GettyImages-137068117-6f02b63483df4a2eb95d51bb9b487d0f.jpg"
+        src="https://ifoundpet.com/public/patte/assets/img/dog-walker-1.png"
         alt=""
       />
     </div>

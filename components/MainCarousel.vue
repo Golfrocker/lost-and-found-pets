@@ -1,20 +1,20 @@
 <template>
-  <div id="default-carousel" class="relative w-full" data-carousel="slide">
+  <div id="default-carousel" class="relative w-full bg-yellow-300" data-carousel="slide">
     <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+    <div class="relative h-56 overflow-hidden rounded-lg md: h-96">
       <!-- Item 1 -->
-      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+      <div class="hidden duration-700 ease-in-out " data-carousel-item>
         <img
-          src="https://www.thesprucepets.com/thmb/UX4NHGthaE9DepYeTzaUh06yxFE=/1500x0/filters:no_upscale():strip_icc()/GettyImages-137068117-6f02b63483df4a2eb95d51bb9b487d0f.jpg"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+          src="https://scontent.fcnx3-1.fna.fbcdn.net/v/t1.6435-9/46730535_1935155790124214_1123846190920630272_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3LFgypRQsJ8AX8Xm8NZ&_nc_ht=scontent.fcnx3-1.fna&oh=00_AfBlAssD0776YBbjNHPtR0Bpmcd6wQ1gECjqLO5gHVPuqw&oe=662A5D90"
+          class="object-contain h-full absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="..."
         />
       </div>
       <!-- Item 2 -->
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
-          src="https://www.thesprucepets.com/thmb/UX4NHGthaE9DepYeTzaUh06yxFE=/1500x0/filters:no_upscale():strip_icc()/GettyImages-137068117-6f02b63483df4a2eb95d51bb9b487d0f.jpg"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+          src="https://image.springnews.co.th/uploads/images/md/2021/01/9b4ehS6WSkLoRpKMYUKp.jpg"
+          class="object-contain h-full absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="..."
         />
       </div>
@@ -22,7 +22,14 @@
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
         <img
           src="https://www.thesprucepets.com/thmb/UX4NHGthaE9DepYeTzaUh06yxFE=/1500x0/filters:no_upscale():strip_icc()/GettyImages-137068117-6f02b63483df4a2eb95d51bb9b487d0f.jpg"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+          class="object-contain h-full absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+          alt="..."
+        />
+      </div>
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <img
+          src="https://www.dailynews.co.th/wp-content/uploads/2023/02/%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%87.jpg"
+          class="object-contain h-full absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
           alt="..."
         />
       </div>

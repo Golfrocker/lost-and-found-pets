@@ -1,20 +1,21 @@
 <template>
-  <div class=" px-96">
-    <h1 class=" te">ลงทะเบียน</h1>
+  <div class="px-96">
+    <h1>ลงทะเบียน</h1>
+    <h1>กรุณากรอกตามความเป็นจริง เพื่อสะดวกในการติดต่อ</h1>
 
-    <form>
+    <form class="py-5">
       <div class="grid gap-6 mb-6 md:grid-cols-2">
         <div>
           <label
             for="first_name"
             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-            >ชื่อ หรือชื่อเล่นของเจ้่าของ</label
+            >ชื่อ หรือชื่อเล่นของเจ้าของ</label
           >
           <input
             type="text"
             id="first_name"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder=""
+            placeholder="ชื่อ"
             required
           />
         </div>
@@ -28,51 +29,106 @@
             type="tel"
             id="phone"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="123-45-678"
-            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            placeholder="123-456-6789"
             required
           />
         </div>
+
         <div>
+          <h1 class="text-red-500">
+            *จะถูกเปิดเผยกรณีอนุญาติให้ติดต่อในการประกาศ
+          </h1>
           <label
-            for="company"
+            for="default"
             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-            >Company</label
+            >จังหวัด</label
+          >
+          <select
+            id="default"
+            class="bg-gray-50 border border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          >
+            <option selected>เลือกจังหวัด</option>
+            <option value="US">เชียงใหม่</option>
+            <option value="CA">เชียงราย</option>
+            <option value="FR">ตาก</option>
+            <option value="DE">กรุงเทพมหานคร</option>
+          </select>
+          <label
+            for="default"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >อำเภอ/เขต</label
+          >
+          <select
+            id="default"
+            class="bg-gray-50 border border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          >
+            <option selected>เลือกอำเภอ/เขต</option>
+            <option value="US">เชียงใหม่</option>
+            <option value="CA">เชียงราย</option>
+            <option value="FR">ตาก</option>
+            <option value="DE">กรุงเทพมหานคร</option>
+          </select>
+          <label
+            for="default"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >ตำบล/เเขวง</label
+          >
+          <select
+            id="default"
+            class="bg-gray-50 border border-gray-300 text-gray-900 mb-6 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          >
+            <option selected>เลือกตำบล/เเขวง</option>
+            <option value="US">เชียงใหม่</option>
+            <option value="CA">เชียงราย</option>
+            <option value="FR">ตาก</option>
+            <option value="DE">กรุงเทพมหานคร</option>
+          </select>
+          <!-- <label
+            for="first_name"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >จังหวัด</label
           >
           <input
             type="text"
-            id="company"
+            id="first_name"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Flowbite"
+            placeholder="เลือกจังหวัด"
             required
           />
-        </div>
-        
-        <div>
           <label
-            for="website"
+            for="first_name"
             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-            >Website URL</label
+            >อำเภอ/เขต</label
           >
           <input
-            type="url"
-            id="website"
+            type="text"
+            id="first_name"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="flowbite.com"
+            placeholder="เลือกอำเภอ/เขต"
             required
           />
-        </div>
-        <div>
           <label
-            for="visitors"
+            for="first_name"
             class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-            >Unique visitors (per month)</label
+            >ตำบล/เเขวง</label
           >
           <input
-            type="number"
-            id="visitors"
+            type="text"
+            id="first_name"
             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder=""
+            placeholder="เลือกตำบล/เเขวง"
+            required
+          /> -->
+          <label
+            for="first_name"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >ตำเเหน่งที่อยู่</label
+          >
+          <input
+            type="text"
+            id="first_name"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="กดเลือกตำเเหน่ง"
             required
           />
         </div>

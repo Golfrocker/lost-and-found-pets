@@ -21,7 +21,7 @@
         <div
           class="flex items-center md:order-2 space-x-1 md:space-x-2 rtl:space-x-reverse"
         >
-          <Accountuser />
+         <Accountuser />
           <NuxtLink
             to="login"
             class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
@@ -30,8 +30,14 @@
           <NuxtLink
             to="signup"
             class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-            >สมัครสมาชิก</NuxtLink
-          >
+            >สมัครสมาชิก</NuxtLink>
+   
+          <!-- <NuxtLink to="https://line.me/R/ti/p/@064yhomx?from=page&accountId=064yhomx">
+            <img
+              src="https://petnme.co.th/wp-content/uploads/2024/02/PET-N-ME-LINE.webp"
+              alt=""
+              class="h-12"
+          /></NuxtLink> -->
           <button
             data-collapse-toggle="mega-menu"
             type="button"
@@ -69,7 +75,7 @@
                 to="/"
                 class="block py-2 px-3 text-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
                 aria-current="page"
-                >Home</NuxtLink
+                >หน้าแรก</NuxtLink
               >
             </li>
             <li>
@@ -78,7 +84,7 @@
                 data-dropdown-toggle="mega-menu-dropdown"
                 class="flex items-center justify-between w-full py-2 px-3 font-medium text-gray-900 border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
               >
-                Announcement
+                ประกาศ
                 <svg
                   class="w-2.5 h-2.5 ms-3"
                   aria-hidden="true"
@@ -108,21 +114,21 @@
                       <NuxtLink
                         to="/announce"
                         class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500"
-                        >Lost Pets</NuxtLink
+                        >สัตว์เลี้ยงหาย</NuxtLink
                       >
                     </li>
                     <li>
                       <NuxtLink
                         to="/announce2"
                         class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500"
-                        >Find Owner</NuxtLink
+                        >หาเจ้าของ</NuxtLink
                       >
                     </li>
                     <li>
                       <NuxtLink
                         to="/announce3"
                         class="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-500"
-                        >Find Home</NuxtLink
+                        >หาบ้าน</NuxtLink
                       >
                     </li>
                   </ul>
@@ -133,21 +139,21 @@
               <NuxtLink
                 to="/shop"
                 class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
-                >Shop</NuxtLink
+                >สินค้า</NuxtLink
               >
             </li>
             <li>
               <NuxtLink
-                to="/friends"
+                to="/article"
                 class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
-                >Friends</NuxtLink
+                >บทความ</NuxtLink
               >
             </li>
             <li>
               <NuxtLink
                 to="/about"
                 class="block py-2 px-3 text-gray-900 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
-                >About</NuxtLink
+                >เกี่ยวกับ</NuxtLink
               >
             </li>
           </ul>

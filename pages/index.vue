@@ -8,7 +8,7 @@ onMounted(() => {
 
 <template>
   <div class="translate-y-5"><MainCarousel /></div>
-  <div><Threecircle /></div>
-  <div><Promot /></div>
-  <div><Shopindex /></div>
+  <div class=""><Threecircle /></div>
+  <div class="translate-y-5"><Promot /></div>
+  <div class="translate-y-5"><Shopindex /></div>
 </template>

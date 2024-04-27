@@ -1,6 +1,6 @@
 <template>
   <AppHeader />
-  <NavbarAdmin />
+  <SidebarAdmin />
 
   <div class="p-4 sm:ml-64">
     <slot />
@@ -9,4 +9,4 @@
   <AppFooter />
 </template>
 
-<style scoped></style>
+<style></style>

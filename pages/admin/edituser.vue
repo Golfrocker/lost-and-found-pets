@@ -15,4 +15,5 @@ export default {
   components: { Tableuser },
 };
 </script>
-<style scoped></style>
+<style scoped></style>    
+```
